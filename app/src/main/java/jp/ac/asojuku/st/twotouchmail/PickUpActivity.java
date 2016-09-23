@@ -29,6 +29,7 @@ public class PickUpActivity extends AppCompatActivity {
                 EditText edit01 = (EditText) findViewById(R.id.editText);
                 String title = edit01.getText().toString();
                 Resources res = getResources();
+                //授業課題 randomでメールアドレスを選択
                 int ram = (int)(Math.random()*5);
                 Uri uri = Uri.parse("");
                 switch(ram){
